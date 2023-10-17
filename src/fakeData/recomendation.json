@@ -2,23 +2,35 @@
     "recomendation": [
         {
             "product": "Нагетси",
-            "image": "https://imgur.com/QYkP57L.png",
-            "price":"15.00"
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 0
         },
         {
             "product": "Нагетси",
-            "image": "https://imgur.com/QYkP57L.png",
-            "price":"15.00"
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 1
         },
         {
             "product": "Нагетси",
-            "image": "https://imgur.com/QYkP57L.png",
-            "price":"15.00"
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 2
         },
         {
             "product": "Нагетси",
-            "image": "https://imgur.com/QYkP57L.png",
-            "price":"15.00"
-        } 
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 3
+        }
     ]
 }

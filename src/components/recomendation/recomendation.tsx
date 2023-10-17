@@ -11,6 +11,7 @@ import './recomendation.scss';
 export default function Recomendation() {
     const recomendationList = fakeData.recomendation;
 
+
     return (
         <section className="recomendation">
             <div className="container">
@@ -18,7 +19,7 @@ export default function Recomendation() {
                     <h2 className='sectionTitle'>Рекомендовано для вас</h2>
                     <div className="recomendation__list">
                         {recomendationList.map((item, id) => (
-                            <button className="item_card">
+                            <Link to={{pathname:`$product/${item.id}`}}   className="item_card">
                                 <div className="item__illustration">
                                     <img src={item.image} alt={item.product} />
                                 </div>
@@ -35,7 +36,7 @@ export default function Recomendation() {
                                         </button>
                                     </div>
                                 </div>
-                            </button>
+                            </Link>
                         ))}
                     </div>
                 </div>

@@ -1,0 +1,139 @@
+.aboutDish__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .dish_Illustration img {
+        width: 100%;
+        // height: 390px;
+    }
+
+    .dish_description {
+        .dish_name {
+            color: #3E3E3D;
+            font-family: 'Antonio Medium';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 166.5%;
+            /* 26.64px */
+            text-transform: uppercase;
+        }
+
+        .dish_type {
+            color: #FF8D6E;
+            font-family: 'Montserrat SemiBold';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 166.5%;
+            /* 26.64px */
+        }
+
+        .dish_descr {
+            color: #53616C;
+            /* BODY */
+            font-family: 'Montserrat Medium';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 166.5%;
+            /* 26.64px */
+        }
+    }
+
+    .dish__options {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 12.5%;
+
+        .function__option {
+            h3 {
+                color: #FE724C;
+                /* Label Над інпутами */
+                font-family: 'Antonio SemiBold';
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 166.5%;
+                /* 19.98px */
+                text-transform: uppercase;
+            }
+
+            .add__option {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 157px;
+                height: 40px;
+                border-radius: 20px;
+                background: #F4F4F4;
+                padding: 0 10%;
+
+                .result {
+                    p {
+                        font-family: 'Montserrat Medium';
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: #3e3e3d;
+                    }
+                }
+
+                .funct__options {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .option {
+                        background-color: inherit;
+                        ;
+                        border: 0;
+                        color: #fe724c;
+                        font-size: 26px;
+                        margin-right: 70%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .price {
+            h3 {
+                color: #3E3E3D;
+                text-align: center;
+                font-family: "Bebas Neue";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            p {
+                color: #FE724C;
+                text-align: center;
+
+                /* Heading 2 */
+                font-family: "Bebas Neue";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            // align-items: center;
+        }
+    }
+}
+
+.arr_back{
+    position: absolute;
+    left: 0;
+    top: 5%;
+    background-color: inherit;
+    border: 0px;
+}
