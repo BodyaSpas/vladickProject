@@ -1,0 +1,38 @@
+.offer {
+    background-color: #EAF5ED;
+    height: 111px;
+    margin-top: 8%;
+}
+
+.offer__content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 111px;
+
+    .offer_illustration {
+        position: absolute;
+        left: 0;
+        top: -15px;
+    }
+
+    .offer__detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72.5%;
+
+        p {
+            font-family: 'Montserrat Medium';
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #1c5132;
+            ;
+
+        }
+    }
+}

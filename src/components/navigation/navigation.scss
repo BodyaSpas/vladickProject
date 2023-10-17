@@ -1,0 +1,16 @@
+.navigation{
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    .navElement{
+        cursor: pointer;
+        .navLink{
+            border: 0px;
+            background-color: inherit;
+        }
+    }
+}
