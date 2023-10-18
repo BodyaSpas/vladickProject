@@ -1,11 +1,18 @@
 .navigation{
-    margin-top: 12%;
+    margin-top: 20%;
     margin-bottom: 3%;
 }
 
 .navMenu{
+    background-color: #fff;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     .navElement{
         cursor: pointer;
         .navLink{

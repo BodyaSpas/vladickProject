@@ -36,3 +36,14 @@ interface IProduct{
     description: string;
     id: number;
 }
+
+interface ITicketsRoute {
+	buttonText: string;
+	buttonValue:string;
+}
+
+interface ISocialNetworkRoute {
+	buttonText: string;
+	buttonValue:string;
+	buttonImage:string;
+}

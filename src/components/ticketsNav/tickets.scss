@@ -1,0 +1,160 @@
+.nav__content {
+    margin-top: 10%;
+    position: relative;
+}
+
+.tickets__nav {
+    padding-top: 12.5%;
+    display: flex;
+    justify-content: space-between;
+
+    .tickets__button {
+        color: #FE724C;
+        text-align: center;
+        font-family: 'Montserrat SemiBold';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 166.5%;
+        /* 23.31px */
+        text-transform: uppercase;
+        border-radius: 20px;
+        border: 2px solid var(--1, #FE724C);
+        background-color: inherit;
+        width: 157px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .activeButton {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Montserrat SemiBold';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 166.5%;
+        text-transform: uppercase;
+        border-radius: 20px;
+        border: 2px solid var(--1, #FE724C);
+        background: var(--1, #FE724C);
+    }
+}
+
+.TicketsList {
+    .ticketsList__content {
+        .ponuka__card {
+            cursor: pointer;
+            margin-top: 5%;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            height: 144px;
+
+            .card__description {
+                width: 60%;
+                margin-top: 5%;
+                margin-left: 5%;
+
+                h3 {
+                    // width: 95%;
+                    color: #FFF;
+                    font-family: 'Montserrat Bold';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 127%;
+                    /* 25.4px */
+                    // text-transform: capitalize;
+                }
+
+                p {
+                    color: #FFF;
+                    font-family: 'Montserrat Medium';
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 166.5%;
+                    /* 16.65px */
+                }
+            }
+
+            .card__illustration {
+                max-width: 100px;
+                overflow: hidden;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                position: relative;
+
+                img {
+                    width: 109px;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 100% 50%;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+
+    .blue {
+        background-color: #9BBCFF;
+    }
+
+    .red {
+        background-color: #FE724C;
+    }
+
+    .green {
+        background-color: #AEDDC9;
+    }
+}
+
+.bods__content {
+    .bods__title {
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .bods__stat {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 55%;
+
+            h3 {
+                // margin-left: 10%;
+                color: #3E3E3D;
+                font-family: 'Montserrat Bold';
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 166.5%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.bods__marks {
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        color:  #3E3E3D;
+        font-family: 'Montserrat Medium';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 166.5%;
+        /* 19.98px */
+    }
+}
+
+.pogressBar {
+    margin-top: 7%;
+}

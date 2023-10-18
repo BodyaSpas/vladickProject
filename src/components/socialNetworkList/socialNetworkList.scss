@@ -1,0 +1,53 @@
+.socialNetworkList__content {
+    margin-top: 7% ;
+
+    .section__descr {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1%;
+
+        h3 {
+            color: #3E3E3D;
+            font-family: 'Montserrat Medium';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 166.5%;
+        }
+
+        p {
+            color: #53616C;
+            font-family: 'Montserrat Medium';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 166.5%;
+        }
+    }
+}
+
+.network__mainlist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+
+
+    .networkCard {
+        cursor: pointer;
+        p {
+            color: #3E3E3D;
+            font-family: 'Montserrat Medium';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 166.5%;
+        }
+    }
+}
+
+.takeBonusCard{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
