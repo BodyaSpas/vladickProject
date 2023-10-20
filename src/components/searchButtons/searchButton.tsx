@@ -7,6 +7,7 @@ interface IProps{
     handleFilter: (buttonValue:any) => void;
     setActive: () => void;
     isActive: boolean;
+    setButtonValue: (buttonValue: any) => void;
 }
 
 
@@ -17,6 +18,7 @@ export default function SearchButton(props: IProps) {
     const handleSetBlogs = () => {
       props.setActive();
       props.handleFilter(buttonValue);
+      props.setButtonValue(buttonValue);
     }
         return (
             <button className={`blogList__button ${props.isActive ? 'active' : ''}`} onClick={handleSetBlogs}>

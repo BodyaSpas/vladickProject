@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SearchInput from '../../components/searchInput/searchInput.tsx';
 import SearchButtons from '../../components/searchButtons/searchButtons.tsx';
 import FakeData from '../../fakeData/recomendation.json';
@@ -10,24 +10,43 @@ import './findProductPage.scss';
 
 export default function FindProjectPage() {
   const data = FakeData.recomendation;
-
+  const [inputValue, setInputValue] = React.useState('');
+  const [buttonValue, setButtonValue] = React.useState('all');
   const [foundData, setFoundBlogs] = React.useState(data);
-  const handleFilter = (buttonValue: any) => {
-    if (buttonValue !== 'all') {
+
+  const handleFilter = (buttonValued: any)  => {
+
+  };
+
+
+  React.useEffect(() => {
+    let filteredData = data;
+
+       if (buttonValue !== 'all') {
       const results = data.filter((blog) => {
         return blog.type.toLowerCase().includes(buttonValue.toLowerCase());
       });
-      setFoundBlogs(results);
-    } else {
-      setFoundBlogs(data);
+      filteredData = results;
     }
-  };
+
+
+
+    if (inputValue) {
+      filteredData = filteredData.filter(item => item.product.toLowerCase().includes(inputValue.toLowerCase()));
+    }
+
+
+    console.log(buttonValue);
+    console.log(inputValue);
+     setFoundBlogs(filteredData);
+  }, [inputValue, buttonValue]
+  );
 
 
   return (
     <>
-      <SearchInput />
-      <SearchButtons handleFilter={handleFilter} setFoundBlogs={setFoundBlogs} />
+      <SearchInput handleFilter={handleFilter} setInputValue={setInputValue} inputValue={inputValue} />
+      <SearchButtons setButtonValue={setButtonValue} handleFilter={handleFilter} setFoundBlogs={setFoundBlogs} />
       <section className="ProductList">
         <div className="container">
           <div className="ProductList__list">
