@@ -12,15 +12,11 @@ export default function SearchInput(props: IProps) {
     const [inputValue, setInputValue] = useState(''); 
     const handleKeyDown = (event:any) => {
         if (event.key === 'Enter') {
-          console.log('Enter key pressed');
-          console.log(inputValue);
           props.setInputValue(event.target.value);
         }
       };
     const handleInputChange = (event: any) => {
         setInputValue(event.target.value);
-
-        console.log(inputValue);
     };
 
     return (

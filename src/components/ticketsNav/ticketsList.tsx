@@ -10,7 +10,7 @@ export default function TicketsList() {
             <div className="container">
                 <div className="ticketsList__content">
                     {ponukaData.map((item, key) => (
-                        <div className={`ponuka__card ${item.bgc}`}>
+                        <div key={key} className={`ponuka__card ${item.bgc}`}>
                             <div className="card__description">
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>

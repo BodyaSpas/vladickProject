@@ -21,7 +21,7 @@ export default function RecomendationList() {
                     </h2>
                     <div className="recomendation__list">
                         {data.map((item, key) => (
-                            <div className="recomend__card">
+                            <div key={key} className="recomend__card">
                                 <div className="card__details">
                                     <h3>{item.product}</h3>
                                     <h4>{item.price}</h4>

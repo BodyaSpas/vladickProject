@@ -17,7 +17,7 @@ export default function AboutDish(props: IProps) {
                 <div className="aboutDish__content">
                     <button className="arr_back">
                     <Link to={{pathname:`/`}}  ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <g clip-path="url(#clip0_305_4429)">
+                            <g clipPath="url(#clip0_305_4429)">
                                 <path d="M9.02329 9.99962L13.1483 14.1246L11.97 15.303L6.66663 9.99962L11.97 4.69629L13.1483 5.87462L9.02329 9.99962Z" fill="#3E3E3D" />
                             </g>
                             <defs>

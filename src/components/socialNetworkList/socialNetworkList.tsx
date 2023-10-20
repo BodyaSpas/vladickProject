@@ -17,7 +17,7 @@ export default function SocialNetworkList() {
                     </div>
                     <div className="network__mainlist">
                         {NetworkRoute.map((item, index) => (
-                            <div className='networkCard'>
+                            <div key={index} className='networkCard'>
                                 <img src={item.buttonImage} alt={item.buttonValue} />
                                 <p>{item.buttonText}</p>
                             </div>

@@ -17,7 +17,7 @@ export default function PartnersList() {
                     <h2 className='sectionTitle'>Заклади / супермаркети</h2>
                     <div className="main__list">
                         {partners.map((item, id) => (
-                            <div className="item_card">
+                            <div key={id} className="item_card">
                                 <img className='partner_logo' src={item.image} alt={item.partner} />
                             </div>
                         ))}

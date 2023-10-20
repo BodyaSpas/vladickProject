@@ -16,7 +16,6 @@ export default function SearchButtons(props:IProps) {
         const activeButtons = SearchButtonsRoute.map(() => false);
         activeButtons[index] = true;
         setActiveButtons(activeButtons)
-        console.log(index);
     }
 
     return (

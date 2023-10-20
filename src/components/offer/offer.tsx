@@ -81,7 +81,7 @@ export default function Offer() {
                     <div className="offer__detail">
                         <p>Отримайте знижку 400 грн на ваше замовлення</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" fill="#1c5132">
-                            <g clip-path="url(#clip0_478_15028)">
+                            <g clipPath="url(#clip0_478_15028)">
                                 <path d="M10.9767 9.99962L6.85168 5.87462L8.03002 4.69629L13.3334 9.99962L8.03002 15.303L6.85168 14.1246L10.9767 9.99962Z" fill="#2D2D2D" />
                             </g>
                             <defs>

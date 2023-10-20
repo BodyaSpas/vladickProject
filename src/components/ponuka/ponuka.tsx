@@ -18,7 +18,7 @@ export default function Ponuka() {
                 <div className="ponuka__content">
                 <h2 className='sectionTitle'>Вигідні пропозиції</h2>
                 {ponukaData.map((item, key) => (
-                    <div className={`ponuka__card ${item.bgc}`}>
+                    <div key={key} className={`ponuka__card ${item.bgc}`}>
                         <div className="card__description">
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>

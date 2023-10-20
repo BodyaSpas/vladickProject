@@ -19,7 +19,7 @@ export default function GiftsList() {
                     </div>
                     <div className="mainList">
                         {data.map((item, index) => (
-                            <div className="gift__card">
+                            <div key={index} className="gift__card">
                                 <img className="gift__illustration" src={item.image} alt={item.product} />
                                 <h3>
                                     {item.product}
