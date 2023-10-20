@@ -4,6 +4,7 @@ import SearchButtons from '../../components/searchButtons/searchButtons.tsx';
 import FakeData from '../../fakeData/recomendation.json';
 import ProductCard from '../../components/productCard.tsx/productCard.tsx';
 import './findProductPage.scss';
+import Navigation from '../../components/navigation/navigation.tsx';
 
 
 
@@ -13,10 +14,6 @@ export default function FindProjectPage() {
   const [inputValue, setInputValue] = React.useState('');
   const [buttonValue, setButtonValue] = React.useState('all');
   const [foundData, setFoundBlogs] = React.useState(data);
-
-  const handleFilter = (buttonValued: any)  => {
-
-  };
 
 
   React.useEffect(() => {
@@ -45,8 +42,8 @@ export default function FindProjectPage() {
 
   return (
     <>
-      <SearchInput handleFilter={handleFilter} setInputValue={setInputValue} inputValue={inputValue} />
-      <SearchButtons setButtonValue={setButtonValue} handleFilter={handleFilter} setFoundBlogs={setFoundBlogs} />
+      <SearchInput  setInputValue={setInputValue} inputValue={inputValue} />
+      <SearchButtons setButtonValue={setButtonValue}  setFoundBlogs={setFoundBlogs} />
       <section className="ProductList">
         <div className="container">
           <div className="ProductList__list">
@@ -159,6 +156,7 @@ export default function FindProjectPage() {
           </div>
         </div>
       </section>
+      <Navigation/>
     </>
   )
 }

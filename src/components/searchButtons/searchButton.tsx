@@ -4,7 +4,6 @@ import './searchButtons.scss';
 
 interface IProps{
     button: ISearchButton;
-    handleFilter: (buttonValue:any) => void;
     setActive: () => void;
     isActive: boolean;
     setButtonValue: (buttonValue: any) => void;
@@ -17,7 +16,6 @@ export default function SearchButton(props: IProps) {
 
     const handleSetBlogs = () => {
       props.setActive();
-      props.handleFilter(buttonValue);
       props.setButtonValue(buttonValue);
     }
         return (

@@ -5,15 +5,13 @@ import './searchInput.scss';
 interface IProps {
     setInputValue: (e:any) => void;
     inputValue:string;
-    handleFilter: (buttonValue:any) => void;
 }
 
 export default function SearchInput(props: IProps) {
 
-    const [inputValue, setInputValue] = useState(''); // Initialize with an empty string
+    const [inputValue, setInputValue] = useState(''); 
     const handleKeyDown = (event:any) => {
         if (event.key === 'Enter') {
-          // Handle the Enter key press here, for example, update the state
           console.log('Enter key pressed');
           console.log(inputValue);
           props.setInputValue(event.target.value);

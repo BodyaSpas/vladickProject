@@ -19,7 +19,7 @@ export default function Recomendation() {
                     <h2 className='sectionTitle'>Рекомендовано для вас</h2>
                     <div className="recomendation__list">
                         {recomendationList.map((item, id) => (
-                            <Link to={{pathname:`$product/${item.id}`}}   className="item_card">
+                            <Link to={{pathname:`product/${item.id}`}}   className="item_card">
                                 <div className="item__illustration">
                                     <img src={item.image} alt={item.product} />
                                 </div>

@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path={`$product/:id`} element={<AboutDishPage />}>
+        <Route path={`product/:id`} element={<AboutDishPage />}>
         </Route>
         <Route path="/tickets" element={<Tickets />} />
         <Route path="/search" element={<FindProjectPage />} />
