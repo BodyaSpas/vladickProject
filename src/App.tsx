@@ -4,6 +4,7 @@ import HomePage from './pages/homePage/homePage.tsx'
 import './App.scss';
 import AboutDishPage from './pages/aboutDishPage/aboutDishPage.tsx';
 import Tickets from './pages/ticketsPage/ticketsPage.tsx';
+import FindProjectPage from './pages/findProductPage/findProductPage.tsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path={`$product/:id`} element={<AboutDishPage />}>
         </Route>
         <Route path="/tickets" element={<Tickets />} />
+        <Route path="/search" element={<FindProjectPage />} />
       </Routes>
     </BrowserRouter>
   );

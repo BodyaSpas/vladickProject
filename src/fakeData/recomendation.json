@@ -9,10 +9,10 @@
             "id": 0
         },
         {
-            "product": "Нагетси",
+            "product": "pasta",
             "image": "https://imgur.com/1HZCuMN.png",
             "price":"15.00",
-            "type":"Salateria",
+            "type":"pasta",
             "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
             "id": 1
         },
@@ -31,6 +31,102 @@
             "type":"Salateria",
             "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
             "id": 3
+        },
+        {
+            "product": "burger",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"burger",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 4
+        },
+        {
+            "product": "Hamburger",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"burger",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 5
+        },
+        {
+            "product": "Fastfood",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Fastfood",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 4
+        },
+        {
+            "product": "Fastfood",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Fastfood",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 5
+        },
+        {
+            "product": "lunch",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"lunch",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 6
+        },
+        {
+            "product": "lunch",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"lunch",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 7
+        },
+        {
+            "product": "pasta",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 8
+        },
+        {
+            "product": "pasta",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"Salateria",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 9
+        },
+        {
+            "product": "salad",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"salad",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 10
+        },
+        {
+            "product": "vegan",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"vegan",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 11
+        },
+        {
+            "product": "sladke",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"sladke",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 12
+        },
+        {
+            "product": "breakfast",
+            "image": "https://imgur.com/1HZCuMN.png",
+            "price":"15.00",
+            "type":"breakfsast",
+            "description":"Non odit iusto delectus maxime sit placeat voluptatum dolorem. Dolores quos rerum iusto. Beatae totam ab veritatis aliquid tenetur qui ut.",
+            "id": 13
         }
     ]
 }

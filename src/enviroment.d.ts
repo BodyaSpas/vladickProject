@@ -47,3 +47,8 @@ interface ISocialNetworkRoute {
 	buttonValue:string;
 	buttonImage:string;
 }
+
+interface ISearchButton{
+	buttonText: string;
+	buttonValue: string;
+}

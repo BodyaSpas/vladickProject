@@ -1,0 +1,58 @@
+.list__title {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+        color: #2D2D2D;
+        /* Label Над інпутами */
+        font-family: 'Montserrat Bold';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 166.5%;
+        /* 19.98px */
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #FE724C;
+        text-align: right;
+        font-family: 'Montserrat Bold';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 166.5%;
+        text-transform: uppercase;
+    }
+}
+.buttonList__content{
+    margin-top: 8%;
+}
+
+.buttonList__main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-top: 2%;
+    .blogList__button {
+        margin-top: 4%;
+        border-radius: 20px;
+        background: #F4F4F4;
+        color: var(--Dark, #2D2D2D);
+        text-align: center;
+        font-family: 'Montserrat Medium';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 166.5%;
+        border: 0px;
+        padding: 2% 5%;
+    }
+
+    .active {
+        background-color: #FE724C;
+        color: #fff;
+    }
+
+}
