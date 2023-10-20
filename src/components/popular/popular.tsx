@@ -17,7 +17,7 @@ export default function Recomendation() {
                 <div className="rec__content">
                     <h2 className='sectionTitle'>Рекомендовано для вас</h2>
                     <div className="recomendation__list">
-                        {recomendationList.map((item, id) => (
+                        {recomendationList.slice(0,4).map((item, id) => (
                             <button key={id} className="item_card">
                                 <div className="item__illustration">
                                     <img src={item.image} alt={item.product} />
